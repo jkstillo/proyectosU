@@ -25,7 +25,7 @@ public class Principal {
             System.out.println("A - Si desea sumar");
             System.out.println("B - Si desea restar");
             System.out.println("C - Si desea multiplicar");
-            System.out.println("D - Si desea dicidir");
+            System.out.println("D - Si desea dividir");
             System.out.println("Escriba su opcion:");
 
             // Recibe el valor del buffer del teclado
