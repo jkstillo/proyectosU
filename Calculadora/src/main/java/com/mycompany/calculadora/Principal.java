@@ -21,7 +21,7 @@ public class Principal {
         String strContinuar = null;
 
         do {
-            System.out.println("Seleccionar una opcion");
+            System.out.println("Seleccionar una opcion:");
             System.out.println("A - Si desea sumar");
             System.out.println("B - Si desea restar");
             System.out.println("C - Si desea multiplicar");
@@ -134,6 +134,9 @@ public class Principal {
             System.out.println("La opcion seleccionada es " + strOpcion);
 
             System.out.println("Desea continuar? S/N");
+
+            //Limpiar el buffer
+            objInput.nextLine();
 
             // Capturar el buffer para continuar
             Scanner obInput2 = new Scanner(System.in);
